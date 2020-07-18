@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+target "CGXPageTableView-OC" do
+  
+  pod 'CGXPageTableViewOC', :path => '../'
+  
+end
+
+

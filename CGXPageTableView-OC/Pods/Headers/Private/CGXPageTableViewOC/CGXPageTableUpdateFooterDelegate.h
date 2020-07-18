@@ -1,0 +1,1 @@
+../../../../../CGXPageTableViewOC/Delegate/CGXPageTableUpdateFooterDelegate.h

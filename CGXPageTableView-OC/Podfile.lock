@@ -1,0 +1,23 @@
+PODS:
+  - CGXPageTableViewOC (0.0.1):
+    - CGXPageTableViewOC/Base (= 0.0.1)
+    - CGXPageTableViewOC/Common (= 0.0.1)
+    - CGXPageTableViewOC/General (= 0.0.1)
+  - CGXPageTableViewOC/Base (0.0.1):
+    - CGXPageTableViewOC/Common
+  - CGXPageTableViewOC/Common (0.0.1)
+  - CGXPageTableViewOC/General (0.0.1)
+
+DEPENDENCIES:
+  - CGXPageTableViewOC (from `../`)
+
+EXTERNAL SOURCES:
+  CGXPageTableViewOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXPageTableViewOC: d57cbc80a1de979f3f807759a0e656e05687963b
+
+PODFILE CHECKSUM: dbdd17c9fe84835b039dde8e7d75d228e8ed5452
+
+COCOAPODS: 1.9.3

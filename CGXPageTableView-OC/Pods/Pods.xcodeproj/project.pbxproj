@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135721F8291F5AC1BB0136AA12F4B69D /* CGXPageTableFooterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AE268C875ED63FCD62BFABE87DA398 /* CGXPageTableFooterModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18E118F8C28D024E2DE88E0386CB8B1A /* CGXPageTableHeaderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 43546310D90DEFAF4CD43F3B5BA8F673 /* CGXPageTableHeaderModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AEF699927AAF6DFC47048EDF50B5B8D /* UIButton+CGXPageTableBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F9B97F4FED93EE98431A7210CB306E /* UIButton+CGXPageTableBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AFDCB91E1E7A6B7A99B456AA70EDFA3 /* CGXPageTableBaseRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E6937DC2E2BE3F06E637B372517C759 /* CGXPageTableBaseRowModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27D7F4658FFEA3927B96197764655240 /* CGXPageTableGeneralRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 243B0F5F9C847CFE1A0CC3FE882B54A2 /* CGXPageTableGeneralRowModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AD9A4442AE5E7F13F325AABA8548E3C /* CGXPageTableBaseRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63692FF514DCEC98A66C6BB79812B929 /* CGXPageTableBaseRowModel.m */; };
+		3A60DED4498D743937B9083EB9D173FC /* CGXPageTableViewOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 943D467077F0E139FF401F93F1EC68CA /* CGXPageTableViewOC-dummy.m */; };
+		3A96BE17957059E8E23E6582CF9A58D3 /* CGXPageTableGeneralSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D09FECB3480FE98112EBBEE1B7441B56 /* CGXPageTableGeneralSectionModel.m */; };
+		5CFC772CF836B017BF15807BE635DDF2 /* CGXPageTableViewOC.h in Headers */ = {isa = PBXBuildFile; fileRef = A49D0560475B2C91088B85A2BEB5E543 /* CGXPageTableViewOC.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DB7EE799295649BA80DBF37226CB3DF /* CGXPageTableUpdateHeaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D8E05EDE108AB1E0BF8C9544482A84 /* CGXPageTableUpdateHeaderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A09CD4AB0172EC8CFDF21F4FFF65735 /* CGXPageTableUpdateCellDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 540D4CFC06FC3A3034A326B643C8456B /* CGXPageTableUpdateCellDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A7A466E7B5E89DE455967195C55F827 /* UIButton+CGXPageTableBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257B2322B2FFA4BABFEF71449DEA107 /* UIButton+CGXPageTableBlock.m */; };
+		7BFDD7B5381C48647B78134EB8CD7AA3 /* CGXPageTableBaseSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E024949603411E84A33032BD66461B6 /* CGXPageTableBaseSectionModel.m */; };
+		8AD9A2BD6519853B50BF0746BE7A47D8 /* UIView+CGXPageTableTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B946E1458B06307826C798CA816FEB /* UIView+CGXPageTableTap.m */; };
+		8CBB99B6F6DB4EC38BEA40AC707D9ACB /* CGXPageTableGeneralView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D4F558EC3C2A48A593BBEA14854E97 /* CGXPageTableGeneralView.m */; };
+		9B94655791D27F3C82524C4930D64D43 /* CGXPageTableGeneralSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 63769DE9A18855855F7491ED333568C2 /* CGXPageTableGeneralSectionModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7195078A3D83CA1F91BDA03CF743A9F /* CGXPageTableBaseSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4E5BA57FF5DC167C3E388287B242C7 /* CGXPageTableBaseSectionModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0243233EB0FFC8B793531EEDA5139EA /* Pods-CGXPageTableView-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE22F6AEF7EA1D095FBA35A8C0744E /* Pods-CGXPageTableView-OC-dummy.m */; };
+		B26B3215F7392A75148EE9F13F3AD9D1 /* CGXPageTableUpdateFooterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A8968F33AFB8F331609453491B4B6E9C /* CGXPageTableUpdateFooterDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2EDCAE609A4A3B25541F0EC966BDB17 /* CGXPageTableFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BB8D0A390DCDE9FAFD2692AF6511D6 /* CGXPageTableFooterModel.m */; };
+		C76A6110F1FF8BC774310F71434C0529 /* CGXPageTableBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C15037BD32219F6575B63F1E254D0ADE /* CGXPageTableBaseView.m */; };
+		CA5771A147D4E532910E566BF6E7E82C /* CGXPageTableGeneralView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7697047B5ECB14E266147B50A5D55D89 /* CGXPageTableGeneralView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CACB77F335D344B2A43B1A911191B3E9 /* CGXPageTableHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C019622578CF4E76031B320C1F9C01 /* CGXPageTableHeaderModel.m */; };
+		CEC936BC83CDAF2E20755193B6B0F042 /* UIView+CGXPageTableTap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5297942000D92E26F5884DF6D23B9D28 /* UIView+CGXPageTableTap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6285F6598DAF61D0A945747E24ECA2C /* CGXPageTableGeneralRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FF968E19CDC816F2C08429550D5254 /* CGXPageTableGeneralRowModel.m */; };
+		EA54809A0BFBE2D03D89BA3C960D4FD6 /* CGXPageTableUpdateViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A34308BC68A4233EC0EBED4078148DAA /* CGXPageTableUpdateViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F15BF0302A1457F51942DA30FE483A6A /* CGXPageTableBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = B91B1ED81F417F762322F2B81B5F1A3A /* CGXPageTableBaseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73FB23A51E54138FD2EBF43402B7C51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA420879EB0C51C4AB0F8D3A298EF8B;
+			remoteInfo = CGXPageTableViewOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14FF968E19CDC816F2C08429550D5254 /* CGXPageTableGeneralRowModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPageTableGeneralRowModel.m; path = CGXPageTableViewOC/General/CGXPageTableGeneralRowModel.m; sourceTree = "<group>"; };
+		1E6937DC2E2BE3F06E637B372517C759 /* CGXPageTableBaseRowModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableBaseRowModel.h; sourceTree = "<group>"; };
+		2257B2322B2FFA4BABFEF71449DEA107 /* UIButton+CGXPageTableBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CGXPageTableBlock.m"; path = "CGXPageTableViewOC/Common/UIButton+CGXPageTableBlock.m"; sourceTree = "<group>"; };
+		243B0F5F9C847CFE1A0CC3FE882B54A2 /* CGXPageTableGeneralRowModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableGeneralRowModel.h; path = CGXPageTableViewOC/General/CGXPageTableGeneralRowModel.h; sourceTree = "<group>"; };
+		266609C0289976D18D4916441B03702B /* Pods-CGXPageTableView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPageTableView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		2D34CA31A273E8A4341DA7AADEAB735F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2DA4FA43BB9508989282E9B81CE8AF88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		30845E1D7BAEF1B85E60B78AC523D4FA /* CGXPageTableViewOC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXPageTableViewOC-prefix.pch"; sourceTree = "<group>"; };
+		43546310D90DEFAF4CD43F3B5BA8F673 /* CGXPageTableHeaderModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableHeaderModel.h; path = CGXPageTableViewOC/Common/CGXPageTableHeaderModel.h; sourceTree = "<group>"; };
+		4E024949603411E84A33032BD66461B6 /* CGXPageTableBaseSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableBaseSectionModel.m; sourceTree = "<group>"; };
+		5297942000D92E26F5884DF6D23B9D28 /* UIView+CGXPageTableTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CGXPageTableTap.h"; path = "CGXPageTableViewOC/Common/UIView+CGXPageTableTap.h"; sourceTree = "<group>"; };
+		52F9B97F4FED93EE98431A7210CB306E /* UIButton+CGXPageTableBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CGXPageTableBlock.h"; path = "CGXPageTableViewOC/Common/UIButton+CGXPageTableBlock.h"; sourceTree = "<group>"; };
+		540D4CFC06FC3A3034A326B643C8456B /* CGXPageTableUpdateCellDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableUpdateCellDelegate.h; sourceTree = "<group>"; };
+		54B946E1458B06307826C798CA816FEB /* UIView+CGXPageTableTap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CGXPageTableTap.m"; path = "CGXPageTableViewOC/Common/UIView+CGXPageTableTap.m"; sourceTree = "<group>"; };
+		5E49FCB87E236631D7C6A7FCDEB8EE2C /* Pods-CGXPageTableView-OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXPageTableView-OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		622778965B9BA760BAD5D5BAAF0FD4E4 /* libPods-CGXPageTableView-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CGXPageTableView-OC.a"; path = "libPods-CGXPageTableView-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63692FF514DCEC98A66C6BB79812B929 /* CGXPageTableBaseRowModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableBaseRowModel.m; sourceTree = "<group>"; };
+		63769DE9A18855855F7491ED333568C2 /* CGXPageTableGeneralSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableGeneralSectionModel.h; path = CGXPageTableViewOC/General/CGXPageTableGeneralSectionModel.h; sourceTree = "<group>"; };
+		67C019622578CF4E76031B320C1F9C01 /* CGXPageTableHeaderModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPageTableHeaderModel.m; path = CGXPageTableViewOC/Common/CGXPageTableHeaderModel.m; sourceTree = "<group>"; };
+		72BB8D0A390DCDE9FAFD2692AF6511D6 /* CGXPageTableFooterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPageTableFooterModel.m; path = CGXPageTableViewOC/Common/CGXPageTableFooterModel.m; sourceTree = "<group>"; };
+		7697047B5ECB14E266147B50A5D55D89 /* CGXPageTableGeneralView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableGeneralView.h; path = CGXPageTableViewOC/General/CGXPageTableGeneralView.h; sourceTree = "<group>"; };
+		7CFE22F6AEF7EA1D095FBA35A8C0744E /* Pods-CGXPageTableView-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXPageTableView-OC-dummy.m"; sourceTree = "<group>"; };
+		82AE268C875ED63FCD62BFABE87DA398 /* CGXPageTableFooterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableFooterModel.h; path = CGXPageTableViewOC/Common/CGXPageTableFooterModel.h; sourceTree = "<group>"; };
+		873E0820238048400D8B14860239A8B9 /* CGXPageTableViewOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXPageTableViewOC.release.xcconfig; sourceTree = "<group>"; };
+		883EF1B2A7A4A1D1776A4BFEC3B4389C /* libCGXPageTableViewOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCGXPageTableViewOC.a; path = libCGXPageTableViewOC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4E5BA57FF5DC167C3E388287B242C7 /* CGXPageTableBaseSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableBaseSectionModel.h; sourceTree = "<group>"; };
+		943D467077F0E139FF401F93F1EC68CA /* CGXPageTableViewOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXPageTableViewOC-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34308BC68A4233EC0EBED4078148DAA /* CGXPageTableUpdateViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableUpdateViewDelegate.h; sourceTree = "<group>"; };
+		A49D0560475B2C91088B85A2BEB5E543 /* CGXPageTableViewOC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPageTableViewOC.h; path = CGXPageTableViewOC/CGXPageTableViewOC.h; sourceTree = "<group>"; };
+		A8968F33AFB8F331609453491B4B6E9C /* CGXPageTableUpdateFooterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableUpdateFooterDelegate.h; sourceTree = "<group>"; };
+		B2D8E05EDE108AB1E0BF8C9544482A84 /* CGXPageTableUpdateHeaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableUpdateHeaderDelegate.h; sourceTree = "<group>"; };
+		B56E042A0733C46706A00D0BB41C0B71 /* CGXPageTableViewOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXPageTableViewOC.debug.xcconfig; sourceTree = "<group>"; };
+		B91B1ED81F417F762322F2B81B5F1A3A /* CGXPageTableBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPageTableBaseView.h; sourceTree = "<group>"; };
+		C15037BD32219F6575B63F1E254D0ADE /* CGXPageTableBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableBaseView.m; sourceTree = "<group>"; };
+		C40EDD1B80BE5FBB2D5AB70E89B6F74B /* Pods-CGXPageTableView-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXPageTableView-OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8D4F558EC3C2A48A593BBEA14854E97 /* CGXPageTableGeneralView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPageTableGeneralView.m; path = CGXPageTableViewOC/General/CGXPageTableGeneralView.m; sourceTree = "<group>"; };
+		D09FECB3480FE98112EBBEE1B7441B56 /* CGXPageTableGeneralSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPageTableGeneralSectionModel.m; path = CGXPageTableViewOC/General/CGXPageTableGeneralSectionModel.m; sourceTree = "<group>"; };
+		DAA87407050AD6CC6E6FABA3D6B3AB3D /* Pods-CGXPageTableView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPageTableView-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		F0991A0490FE632230EC47E888F2D0AB /* CGXPageTableViewOC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXPageTableViewOC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7A0D158C15AE39703ADFB0E1C5D522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC70A416E3FF04698DD9A875B902F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027EC3F3333786483D3E33B5A50C0CD1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				540D4CFC06FC3A3034A326B643C8456B /* CGXPageTableUpdateCellDelegate.h */,
+				A8968F33AFB8F331609453491B4B6E9C /* CGXPageTableUpdateFooterDelegate.h */,
+				B2D8E05EDE108AB1E0BF8C9544482A84 /* CGXPageTableUpdateHeaderDelegate.h */,
+				A34308BC68A4233EC0EBED4078148DAA /* CGXPageTableUpdateViewDelegate.h */,
+			);
+			name = Delegate;
+			path = CGXPageTableViewOC/Delegate;
+			sourceTree = "<group>";
+		};
+		058E09698AE3ADCA5B322589F54F95F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				943D467077F0E139FF401F93F1EC68CA /* CGXPageTableViewOC-dummy.m */,
+				30845E1D7BAEF1B85E60B78AC523D4FA /* CGXPageTableViewOC-prefix.pch */,
+				B56E042A0733C46706A00D0BB41C0B71 /* CGXPageTableViewOC.debug.xcconfig */,
+				873E0820238048400D8B14860239A8B9 /* CGXPageTableViewOC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXPageTableView-OC/Pods/Target Support Files/CGXPageTableViewOC";
+			sourceTree = "<group>";
+		};
+		0E8977750F2C5EDE5499D5181A3FAEA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1E6937DC2E2BE3F06E637B372517C759 /* CGXPageTableBaseRowModel.h */,
+				63692FF514DCEC98A66C6BB79812B929 /* CGXPageTableBaseRowModel.m */,
+				8D4E5BA57FF5DC167C3E388287B242C7 /* CGXPageTableBaseSectionModel.h */,
+				4E024949603411E84A33032BD66461B6 /* CGXPageTableBaseSectionModel.m */,
+				B91B1ED81F417F762322F2B81B5F1A3A /* CGXPageTableBaseView.h */,
+				C15037BD32219F6575B63F1E254D0ADE /* CGXPageTableBaseView.m */,
+			);
+			name = Base;
+			path = CGXPageTableViewOC/Base;
+			sourceTree = "<group>";
+		};
+		48E6002C7A3C4B68338CDBA635EDDBAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C9D359439E0F483FD58B9F1E153F012 /* CGXPageTableViewOC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		77E5192F466F7AB8C2234CB3982FB6B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				82AE268C875ED63FCD62BFABE87DA398 /* CGXPageTableFooterModel.h */,
+				72BB8D0A390DCDE9FAFD2692AF6511D6 /* CGXPageTableFooterModel.m */,
+				43546310D90DEFAF4CD43F3B5BA8F673 /* CGXPageTableHeaderModel.h */,
+				67C019622578CF4E76031B320C1F9C01 /* CGXPageTableHeaderModel.m */,
+				52F9B97F4FED93EE98431A7210CB306E /* UIButton+CGXPageTableBlock.h */,
+				2257B2322B2FFA4BABFEF71449DEA107 /* UIButton+CGXPageTableBlock.m */,
+				5297942000D92E26F5884DF6D23B9D28 /* UIView+CGXPageTableTap.h */,
+				54B946E1458B06307826C798CA816FEB /* UIView+CGXPageTableTap.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9C5548C74CE59CBEB0A47441D1FAC1C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0E8977750F2C5EDE5499D5181A3FAEA9 /* Base */,
+				027EC3F3333786483D3E33B5A50C0CD1 /* Delegate */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9C9D359439E0F483FD58B9F1E153F012 /* CGXPageTableViewOC */ = {
+			isa = PBXGroup;
+			children = (
+				A49D0560475B2C91088B85A2BEB5E543 /* CGXPageTableViewOC.h */,
+				9C5548C74CE59CBEB0A47441D1FAC1C7 /* Base */,
+				77E5192F466F7AB8C2234CB3982FB6B8 /* Common */,
+				F2C029AC4B11B47F6FF895CA0CBFB141 /* General */,
+				D3DE293155A5BF9C2F55ABEF7BE2B1E8 /* Pod */,
+				058E09698AE3ADCA5B322589F54F95F1 /* Support Files */,
+			);
+			name = CGXPageTableViewOC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				48E6002C7A3C4B68338CDBA635EDDBAB /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D79E578713E13A4DEE2939B9EE10BCB0 /* Products */,
+				D9D17F691F94544F20A35C920EE32022 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DE293155A5BF9C2F55ABEF7BE2B1E8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0991A0490FE632230EC47E888F2D0AB /* CGXPageTableViewOC.podspec */,
+				2DA4FA43BB9508989282E9B81CE8AF88 /* LICENSE */,
+				2D34CA31A273E8A4341DA7AADEAB735F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D79E578713E13A4DEE2939B9EE10BCB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883EF1B2A7A4A1D1776A4BFEC3B4389C /* libCGXPageTableViewOC.a */,
+				622778965B9BA760BAD5D5BAAF0FD4E4 /* libPods-CGXPageTableView-OC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D17F691F94544F20A35C920EE32022 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92BD0899BF19758DCCB63933121C6F8 /* Pods-CGXPageTableView-OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2C029AC4B11B47F6FF895CA0CBFB141 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				243B0F5F9C847CFE1A0CC3FE882B54A2 /* CGXPageTableGeneralRowModel.h */,
+				14FF968E19CDC816F2C08429550D5254 /* CGXPageTableGeneralRowModel.m */,
+				63769DE9A18855855F7491ED333568C2 /* CGXPageTableGeneralSectionModel.h */,
+				D09FECB3480FE98112EBBEE1B7441B56 /* CGXPageTableGeneralSectionModel.m */,
+				7697047B5ECB14E266147B50A5D55D89 /* CGXPageTableGeneralView.h */,
+				C8D4F558EC3C2A48A593BBEA14854E97 /* CGXPageTableGeneralView.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		F92BD0899BF19758DCCB63933121C6F8 /* Pods-CGXPageTableView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				5E49FCB87E236631D7C6A7FCDEB8EE2C /* Pods-CGXPageTableView-OC-acknowledgements.markdown */,
+				C40EDD1B80BE5FBB2D5AB70E89B6F74B /* Pods-CGXPageTableView-OC-acknowledgements.plist */,
+				7CFE22F6AEF7EA1D095FBA35A8C0744E /* Pods-CGXPageTableView-OC-dummy.m */,
+				DAA87407050AD6CC6E6FABA3D6B3AB3D /* Pods-CGXPageTableView-OC.debug.xcconfig */,
+				266609C0289976D18D4916441B03702B /* Pods-CGXPageTableView-OC.release.xcconfig */,
+			);
+			name = "Pods-CGXPageTableView-OC";
+			path = "Target Support Files/Pods-CGXPageTableView-OC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5EFC4C68CE0D121FFA29A469235D7A9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603DEBDCFC59881B142B08A69D8881AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFDCB91E1E7A6B7A99B456AA70EDFA3 /* CGXPageTableBaseRowModel.h in Headers */,
+				A7195078A3D83CA1F91BDA03CF743A9F /* CGXPageTableBaseSectionModel.h in Headers */,
+				F15BF0302A1457F51942DA30FE483A6A /* CGXPageTableBaseView.h in Headers */,
+				135721F8291F5AC1BB0136AA12F4B69D /* CGXPageTableFooterModel.h in Headers */,
+				27D7F4658FFEA3927B96197764655240 /* CGXPageTableGeneralRowModel.h in Headers */,
+				9B94655791D27F3C82524C4930D64D43 /* CGXPageTableGeneralSectionModel.h in Headers */,
+				CA5771A147D4E532910E566BF6E7E82C /* CGXPageTableGeneralView.h in Headers */,
+				18E118F8C28D024E2DE88E0386CB8B1A /* CGXPageTableHeaderModel.h in Headers */,
+				7A09CD4AB0172EC8CFDF21F4FFF65735 /* CGXPageTableUpdateCellDelegate.h in Headers */,
+				B26B3215F7392A75148EE9F13F3AD9D1 /* CGXPageTableUpdateFooterDelegate.h in Headers */,
+				6DB7EE799295649BA80DBF37226CB3DF /* CGXPageTableUpdateHeaderDelegate.h in Headers */,
+				EA54809A0BFBE2D03D89BA3C960D4FD6 /* CGXPageTableUpdateViewDelegate.h in Headers */,
+				5CFC772CF836B017BF15807BE635DDF2 /* CGXPageTableViewOC.h in Headers */,
+				1AEF699927AAF6DFC47048EDF50B5B8D /* UIButton+CGXPageTableBlock.h in Headers */,
+				CEC936BC83CDAF2E20755193B6B0F042 /* UIView+CGXPageTableTap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CA420879EB0C51C4AB0F8D3A298EF8B /* CGXPageTableViewOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640C4F6127F09AC4B7F6E32BDA8FA580 /* Build configuration list for PBXNativeTarget "CGXPageTableViewOC" */;
+			buildPhases = (
+				603DEBDCFC59881B142B08A69D8881AA /* Headers */,
+				1C27ACC4E836606E30F9140D96E74E31 /* Sources */,
+				EDC70A416E3FF04698DD9A875B902F80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGXPageTableViewOC;
+			productName = CGXPageTableViewOC;
+			productReference = 883EF1B2A7A4A1D1776A4BFEC3B4389C /* libCGXPageTableViewOC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A62B8EDC00A6A4E6AB4FD15BC600A543 /* Pods-CGXPageTableView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497B4706FE8766CBA87C76EFCDFB0DAA /* Build configuration list for PBXNativeTarget "Pods-CGXPageTableView-OC" */;
+			buildPhases = (
+				5EFC4C68CE0D121FFA29A469235D7A9C /* Headers */,
+				535143E93028F3BD6AC99BA8E86F4DE7 /* Sources */,
+				7D7A0D158C15AE39703ADFB0E1C5D522 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F692185AFAAFF8FE770940EFDA7410 /* PBXTargetDependency */,
+			);
+			name = "Pods-CGXPageTableView-OC";
+			productName = "Pods-CGXPageTableView-OC";
+			productReference = 622778965B9BA760BAD5D5BAAF0FD4E4 /* libPods-CGXPageTableView-OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D79E578713E13A4DEE2939B9EE10BCB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA420879EB0C51C4AB0F8D3A298EF8B /* CGXPageTableViewOC */,
+				A62B8EDC00A6A4E6AB4FD15BC600A543 /* Pods-CGXPageTableView-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C27ACC4E836606E30F9140D96E74E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD9A4442AE5E7F13F325AABA8548E3C /* CGXPageTableBaseRowModel.m in Sources */,
+				7BFDD7B5381C48647B78134EB8CD7AA3 /* CGXPageTableBaseSectionModel.m in Sources */,
+				C76A6110F1FF8BC774310F71434C0529 /* CGXPageTableBaseView.m in Sources */,
+				B2EDCAE609A4A3B25541F0EC966BDB17 /* CGXPageTableFooterModel.m in Sources */,
+				D6285F6598DAF61D0A945747E24ECA2C /* CGXPageTableGeneralRowModel.m in Sources */,
+				3A96BE17957059E8E23E6582CF9A58D3 /* CGXPageTableGeneralSectionModel.m in Sources */,
+				8CBB99B6F6DB4EC38BEA40AC707D9ACB /* CGXPageTableGeneralView.m in Sources */,
+				CACB77F335D344B2A43B1A911191B3E9 /* CGXPageTableHeaderModel.m in Sources */,
+				3A60DED4498D743937B9083EB9D173FC /* CGXPageTableViewOC-dummy.m in Sources */,
+				7A7A466E7B5E89DE455967195C55F827 /* UIButton+CGXPageTableBlock.m in Sources */,
+				8AD9A2BD6519853B50BF0746BE7A47D8 /* UIView+CGXPageTableTap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535143E93028F3BD6AC99BA8E86F4DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0243233EB0FFC8B793531EEDA5139EA /* Pods-CGXPageTableView-OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F692185AFAAFF8FE770940EFDA7410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGXPageTableViewOC;
+			target = 0CA420879EB0C51C4AB0F8D3A298EF8B /* CGXPageTableViewOC */;
+			targetProxy = 73FB23A51E54138FD2EBF43402B7C51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36A305515BEE4A37694FE17230C9C40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA87407050AD6CC6E6FABA3D6B3AB3D /* Pods-CGXPageTableView-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69B14DBD503CB53A5B33432229301288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56E042A0733C46706A00D0BB41C0B71 /* CGXPageTableViewOC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPageTableViewOC/CGXPageTableViewOC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPageTableViewOC;
+				PRODUCT_NAME = CGXPageTableViewOC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B01193AF72824A0B8D5C1FE057DDE1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266609C0289976D18D4916441B03702B /* Pods-CGXPageTableView-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9BCAB0B4328A773663A0503ED8EBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873E0820238048400D8B14860239A8B9 /* CGXPageTableViewOC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPageTableViewOC/CGXPageTableViewOC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPageTableViewOC;
+				PRODUCT_NAME = CGXPageTableViewOC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497B4706FE8766CBA87C76EFCDFB0DAA /* Build configuration list for PBXNativeTarget "Pods-CGXPageTableView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A305515BEE4A37694FE17230C9C40F /* Debug */,
+				B01193AF72824A0B8D5C1FE057DDE1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640C4F6127F09AC4B7F6E32BDA8FA580 /* Build configuration list for PBXNativeTarget "CGXPageTableViewOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B14DBD503CB53A5B33432229301288 /* Debug */,
+				CD9BCAB0B4328A773663A0503ED8EBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

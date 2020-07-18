@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04634F5224C1891B005B8A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F5124C1891B005B8A0F /* AppDelegate.m */; };
+		04634F5824C1891B005B8A0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F5724C1891B005B8A0F /* ViewController.m */; };
+		04634F5B24C1891B005B8A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634F5924C1891B005B8A0F /* Main.storyboard */; };
+		04634F5D24C1891C005B8A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04634F5C24C1891C005B8A0F /* Assets.xcassets */; };
+		04634F6024C1891C005B8A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634F5E24C1891C005B8A0F /* LaunchScreen.storyboard */; };
+		04634F6324C1891C005B8A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F6224C1891C005B8A0F /* main.m */; };
+		9EA3196B24C1E586005E9457 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196824C1E586005E9457 /* LICENSE */; };
+		9EA3196C24C1E586005E9457 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196924C1E586005E9457 /* README.md */; };
+		9EA3196D24C1E586005E9457 /* CGXPageTableViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196A24C1E586005E9457 /* CGXPageTableViewOC.podspec */; };
+		D9A7C5B59A78DB3C0FD8B6AD /* libPods-CGXPageTableView-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F27EAE272EEB08E63526AFA7 /* libPods-CGXPageTableView-OC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04634F4D24C1891B005B8A0F /* CGXPageTableView-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGXPageTableView-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04634F5024C1891B005B8A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04634F5124C1891B005B8A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04634F5624C1891B005B8A0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04634F5724C1891B005B8A0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04634F5A24C1891B005B8A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04634F5C24C1891C005B8A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04634F5F24C1891C005B8A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04634F6124C1891C005B8A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04634F6224C1891C005B8A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E595B6A840FE93CE1D0C833 /* Pods-CGXPageTableView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageTableView-OC.release.xcconfig"; path = "Target Support Files/Pods-CGXPageTableView-OC/Pods-CGXPageTableView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		9EA3196824C1E586005E9457 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		9EA3196924C1E586005E9457 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		9EA3196A24C1E586005E9457 /* CGXPageTableViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageTableViewOC.podspec; path = ../../../CGXPageTableViewOC.podspec; sourceTree = "<group>"; };
+		9EA3196E24C1F122005E9457 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F01E0F5C28DA9A99F6692E47 /* Pods-CGXPageTableView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageTableView-OC.debug.xcconfig"; path = "Target Support Files/Pods-CGXPageTableView-OC/Pods-CGXPageTableView-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		F27EAE272EEB08E63526AFA7 /* libPods-CGXPageTableView-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXPageTableView-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04634F4A24C1891B005B8A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A7C5B59A78DB3C0FD8B6AD /* libPods-CGXPageTableView-OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04634F4424C1891B005B8A0F = {
+			isa = PBXGroup;
+			children = (
+				04634F4F24C1891B005B8A0F /* CGXPageTableView-OC */,
+				04634F4E24C1891B005B8A0F /* Products */,
+				33362484DEB40A0642EB857C /* Pods */,
+				C6EC559CEFA94C8AA2E5F9CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04634F4E24C1891B005B8A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04634F4D24C1891B005B8A0F /* CGXPageTableView-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04634F4F24C1891B005B8A0F /* CGXPageTableView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				9EA3196724C1E57C005E9457 /* Podspec Metadata */,
+				04634F5024C1891B005B8A0F /* AppDelegate.h */,
+				04634F5124C1891B005B8A0F /* AppDelegate.m */,
+				04634F5624C1891B005B8A0F /* ViewController.h */,
+				04634F5724C1891B005B8A0F /* ViewController.m */,
+				9EA3196E24C1F122005E9457 /* PrefixHeader.pch */,
+				04634F5924C1891B005B8A0F /* Main.storyboard */,
+				04634F5C24C1891C005B8A0F /* Assets.xcassets */,
+				04634F5E24C1891C005B8A0F /* LaunchScreen.storyboard */,
+				04634F6124C1891C005B8A0F /* Info.plist */,
+				04634F6224C1891C005B8A0F /* main.m */,
+				9EA3196F24C1F2CF005E9457 /* CGXPageTableViewGif */,
+			);
+			path = "CGXPageTableView-OC";
+			sourceTree = "<group>";
+		};
+		33362484DEB40A0642EB857C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01E0F5C28DA9A99F6692E47 /* Pods-CGXPageTableView-OC.debug.xcconfig */,
+				8E595B6A840FE93CE1D0C833 /* Pods-CGXPageTableView-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EA3196724C1E57C005E9457 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9EA3196A24C1E586005E9457 /* CGXPageTableViewOC.podspec */,
+				9EA3196824C1E586005E9457 /* LICENSE */,
+				9EA3196924C1E586005E9457 /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9EA3196F24C1F2CF005E9457 /* CGXPageTableViewGif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CGXPageTableViewGif;
+			path = ../../CGXPageTableViewGif;
+			sourceTree = "<group>";
+		};
+		C6EC559CEFA94C8AA2E5F9CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27EAE272EEB08E63526AFA7 /* libPods-CGXPageTableView-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04634F4C24C1891B005B8A0F /* CGXPageTableView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04634F6624C1891C005B8A0F /* Build configuration list for PBXNativeTarget "CGXPageTableView-OC" */;
+			buildPhases = (
+				AAD0D69CBFED828D72B0E780 /* [CP] Check Pods Manifest.lock */,
+				04634F4924C1891B005B8A0F /* Sources */,
+				04634F4A24C1891B005B8A0F /* Frameworks */,
+				04634F4B24C1891B005B8A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGXPageTableView-OC";
+			productName = "CGXPageTableView-OC";
+			productReference = 04634F4D24C1891B005B8A0F /* CGXPageTableView-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04634F4524C1891B005B8A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = CGX;
+				TargetAttributes = {
+					04634F4C24C1891B005B8A0F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 04634F4824C1891B005B8A0F /* Build configuration list for PBXProject "CGXPageTableView-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04634F4424C1891B005B8A0F;
+			productRefGroup = 04634F4E24C1891B005B8A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04634F4C24C1891B005B8A0F /* CGXPageTableView-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04634F4B24C1891B005B8A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA3196D24C1E586005E9457 /* CGXPageTableViewOC.podspec in Resources */,
+				04634F6024C1891C005B8A0F /* LaunchScreen.storyboard in Resources */,
+				04634F5D24C1891C005B8A0F /* Assets.xcassets in Resources */,
+				9EA3196C24C1E586005E9457 /* README.md in Resources */,
+				9EA3196B24C1E586005E9457 /* LICENSE in Resources */,
+				04634F5B24C1891B005B8A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAD0D69CBFED828D72B0E780 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGXPageTableView-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04634F4924C1891B005B8A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04634F5824C1891B005B8A0F /* ViewController.m in Sources */,
+				04634F5224C1891B005B8A0F /* AppDelegate.m in Sources */,
+				04634F6324C1891C005B8A0F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04634F5924C1891B005B8A0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04634F5A24C1891B005B8A0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04634F5E24C1891C005B8A0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04634F5F24C1891C005B8A0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04634F6424C1891C005B8A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04634F6524C1891C005B8A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04634F6724C1891C005B8A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01E0F5C28DA9A99F6692E47 /* Pods-CGXPageTableView-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGXPageTableView-OC/PrefixHeader.pch";
+				INFOPLIST_FILE = "CGXPageTableView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGX.CGXPageTableView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04634F6824C1891C005B8A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E595B6A840FE93CE1D0C833 /* Pods-CGXPageTableView-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGXPageTableView-OC/PrefixHeader.pch";
+				INFOPLIST_FILE = "CGXPageTableView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGX.CGXPageTableView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04634F4824C1891B005B8A0F /* Build configuration list for PBXProject "CGXPageTableView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634F6424C1891C005B8A0F /* Debug */,
+				04634F6524C1891C005B8A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04634F6624C1891C005B8A0F /* Build configuration list for PBXNativeTarget "CGXPageTableView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04634F6724C1891C005B8A0F /* Debug */,
+				04634F6824C1891C005B8A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04634F4524C1891B005B8A0F /* Project object */;
+}

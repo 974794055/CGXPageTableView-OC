@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  CGXPageTableView-OC
+//
+//  Created by 曹贵鑫 on 2020/7/17.
+//  Copyright © 2020 CGX. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CGXPageTableViewOC.h"
+
+ #define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+
+
+#define RandomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
