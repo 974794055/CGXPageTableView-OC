@@ -57,6 +57,9 @@ typedef void (^CGXPageTableBaseViewHeightBlock)(CGXPageTableBaseView *baseView,C
 */
 @property (nonatomic , copy) CGXPageTableBaseViewHeightBlock heightBlock;
 
+
+- (void)registerCell:(Class)classCell IsXib:(BOOL)isXib;
+
 - (void)refreshSectionModel:(CGXPageTableBaseSectionModel *)baseSectionModel NS_REQUIRES_SUPER;
 
 #pragma mark - Subclass Override 子类调用

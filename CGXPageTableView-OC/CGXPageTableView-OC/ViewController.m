@@ -22,6 +22,7 @@
      self.edgesForExtendedLayout = UIRectEdgeNone;
     self.generalView = [[CGXPageTableGeneralView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-88-83)];
     self.generalView.viewDelegate = self;
+    [self.generalView registerCell:[CGXPageTableTextCell class] IsXib:NO];
     [self.view addSubview:self.generalView];
     
     NSMutableArray *dataArray = [NSMutableArray array];
@@ -39,10 +40,25 @@
         sectionModel.footerModel = footerModel;
         
         NSMutableArray *rowArray = [NSMutableArray array];
-        for (int i = 0; i<arc4random() % 10+3; i++) {
-            CGXPageTableGeneralRowModel *item = [[CGXPageTableGeneralRowModel alloc] initWithCellClass:[UITableViewCell class] IsXib:NO];
+        for (int j = 0; j<arc4random() % 10+3; j++) {
+            CGXPageTableGeneralRowModel *item = [[CGXPageTableGeneralRowModel alloc] initWithCellClass:[CGXPageTableTextCell class] IsXib:NO];
             item.cellHeight = 100;
             item.cellColor = RandomColor;
+            
+            NSMutableArray *actionArray = [NSMutableArray array];
+            NSMutableArray *actionA = [NSMutableArray arrayWithObjects:@"删除",@"编辑", nil];
+            for (int k = 0; k<actionA.count; k++) {
+                CGXPageTableEditActionModel *actionModel = [[CGXPageTableEditActionModel alloc] init];
+                actionModel.itemTitle = actionA[k];
+                [actionArray addObject:actionModel];
+            }
+            item.editArray = actionArray;
+            if (j==0) {
+                item.isEdit =  YES;
+            } else{
+                 item.isEdit = NO;
+            }
+            
             [rowArray addObject:item];
         }
         sectionModel.rowArray = [NSMutableArray arrayWithArray:rowArray];
@@ -85,13 +101,19 @@
 
 - (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView  TapInHeaderSection:(NSInteger)section
 {
-    
+    NSLog(@"TapInHeaderSection：%ld" ,section);
 }
 
 - (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView  TapInFooterSection:(NSInteger)section
 {
-    
+    NSLog(@"TapInFooterSection：%ld" ,section);
 }
-
+/*
+ 左滑cell时按钮处理事件
+ */
+- (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"editActionsForRowAtIndexPath：%@" ,indexPath);
+}
 
 @end

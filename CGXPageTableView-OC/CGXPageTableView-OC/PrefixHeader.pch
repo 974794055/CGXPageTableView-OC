@@ -2,7 +2,7 @@
 //  PrefixHeader.pch
 //  CGXPageTableView-OC
 //
-//  Created by 曹贵鑫 on 2020/7/17.
+//  Created by CGX on 2020/7/17.
 //  Copyright © 2020 CGX. All rights reserved.
 //
 
@@ -10,6 +10,11 @@
 #define PrefixHeader_pch
 
 #import "CGXPageTableViewOC.h"
+
+#import "CGXPageTableBaseCell.h"
+#import "CGXPageTableTextCell.h"
+#import "CGXPageTableImageCell.h"
+
 
  #define random(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
 

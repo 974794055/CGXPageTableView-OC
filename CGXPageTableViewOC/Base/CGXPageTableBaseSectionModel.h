@@ -10,6 +10,7 @@
 #import "CGXPageTableFooterModel.h"
 #import "CGXPageTableHeaderModel.h"
 #import "CGXPageTableBaseRowModel.h"
+#import "CGXPageTableEditActionModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CGXPageTableBaseSectionModel : NSObject
@@ -24,11 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic , strong) CGXPageTableFooterModel *footerModel;
 
+
 @property (nonatomic,strong) NSMutableArray<CGXPageTableBaseRowModel *> *rowArray;
-@property (nonatomic , assign) NSInteger minimumLineSpacing;//默认是10
-@property (nonatomic , assign) NSInteger minimumInteritemSpacing;//默认是10
-@property (nonatomic) UIEdgeInsets insets;//默认是10
+
 @property (nonatomic , strong) id dataModel;//原始数据
+
 @end
 
 NS_ASSUME_NONNULL_END

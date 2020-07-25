@@ -84,6 +84,7 @@
         myTableView.estimatedSectionFooterHeight  = 10;
         myTableView.estimatedSectionHeaderHeight = 10;
         [myTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
+        [myTableView registerClass:[UITableViewHeaderFooterView class] forHeaderFooterViewReuseIdentifier:NSStringFromClass([UITableViewHeaderFooterView class])];
         if (@available(iOS 11.0, *)) {
             myTableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
@@ -91,7 +92,44 @@
     });
     [self addSubview:self.tableView];
 }
+- (void)hidekeyboard
+{
+    [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
+}
 
+- (void)registerCell:(Class)classCell IsXib:(BOOL)isXib
+{
+    if (![classCell isKindOfClass:[UITableViewCell class]]) {
+        NSAssert(![classCell isKindOfClass:[UITableViewCell class]], @"注册cell的必须是UITableViewCell类型");
+    }
+    if (isXib) {
+        [self.tableView registerNib:[UINib nibWithNibName:[NSString stringWithFormat:@"%@", classCell] bundle:nil] forCellReuseIdentifier:[NSString stringWithFormat:@"%@", classCell]];
+    } else{
+         [self.tableView registerClass:classCell forCellReuseIdentifier:[NSString stringWithFormat:@"%@", classCell]];
+    }
+}
+- (void)registerFooter:(Class)footer IsXib:(BOOL)isXib
+{
+    if (![footer isKindOfClass:[UITableViewHeaderFooterView class]]) {
+        NSAssert(![footer isKindOfClass:[UITableViewHeaderFooterView class]], @"注册foot的必须是UITableViewHeaderFooterView类型");
+    }
+    if (isXib) {
+        [self.tableView registerNib:[UINib nibWithNibName:[NSString stringWithFormat:@"%@", footer] bundle:nil] forHeaderFooterViewReuseIdentifier:[NSString stringWithFormat:@"%@", footer]];
+    } else{
+         [self.tableView registerClass:footer forHeaderFooterViewReuseIdentifier:[NSString stringWithFormat:@"%@", footer]];
+    }
+}
+- (void)registerHeader:(Class)header IsXib:(BOOL)isXib
+{
+    if (![header isKindOfClass:[UITableViewHeaderFooterView class]]) {
+        NSAssert(![header isKindOfClass:[UITableViewHeaderFooterView class]], @"注册header的必须是UITableViewHeaderFooterView类型");
+    }
+    if (isXib) {
+        [self.tableView registerNib:[UINib nibWithNibName:[NSString stringWithFormat:@"%@", header] bundle:nil] forHeaderFooterViewReuseIdentifier:[NSString stringWithFormat:@"%@", header]];
+    } else{
+        [self.tableView registerClass:header forHeaderFooterViewReuseIdentifier:[NSString stringWithFormat:@"%@", header]];
+    }
+}
 
 #pragma mark - 数据代理
 

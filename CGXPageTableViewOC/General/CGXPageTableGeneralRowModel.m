@@ -10,4 +10,11 @@
 
 @implementation CGXPageTableGeneralRowModel
 
+- (void)initializeData
+{
+    [super initializeData];
+    self.editArray = [NSMutableArray array];
+    self.style = UITableViewCellEditingStyleNone;
+    self.isEdit = NO;
+}
 @end

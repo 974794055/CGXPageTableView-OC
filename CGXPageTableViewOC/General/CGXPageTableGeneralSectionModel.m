@@ -10,4 +10,8 @@
 
 @implementation CGXPageTableGeneralSectionModel
 
+- (void)initializeData
+{
+    [super initializeData];
+}
 @end

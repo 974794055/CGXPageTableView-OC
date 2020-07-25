@@ -16,6 +16,8 @@
 #import "CGXPageTableHeaderModel.h"
 #import "CGXPageTableFooterModel.h"
 
+#import "CGXPageTableEditActionModel.h"
+
 #import "CGXPageTableBaseSectionModel.h"
 #import "CGXPageTableBaseRowModel.h"
 

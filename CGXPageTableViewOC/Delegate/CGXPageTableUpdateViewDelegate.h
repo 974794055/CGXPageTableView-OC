@@ -40,6 +40,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView  TapInFooterSection:(NSInteger)section;
 
+
+/*
+ 左滑cell时按钮处理事件
+ */
+- (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
 NS_ASSUME_NONNULL_END

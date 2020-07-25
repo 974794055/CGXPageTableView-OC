@@ -26,9 +26,6 @@
 - (void)initializeData
 {
     self.rowArray = [NSMutableArray array];
-    self.insets =UIEdgeInsetsMake(10, 10, 10, 10);
-    self.minimumLineSpacing = 10;
-    self.minimumInteritemSpacing = 10;
     self.headerModel = [[CGXPageTableHeaderModel alloc] initWithHeaderClass:[UITableViewHeaderFooterView class] IsXib:NO];
     self.footerModel = [[CGXPageTableFooterModel alloc] initWithFooterClass:[UITableViewHeaderFooterView class] IsXib:NO];
 }

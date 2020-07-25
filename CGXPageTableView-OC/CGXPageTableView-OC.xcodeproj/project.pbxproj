@@ -13,6 +13,9 @@
 		04634F5D24C1891C005B8A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04634F5C24C1891C005B8A0F /* Assets.xcassets */; };
 		04634F6024C1891C005B8A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04634F5E24C1891C005B8A0F /* LaunchScreen.storyboard */; };
 		04634F6324C1891C005B8A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04634F6224C1891C005B8A0F /* main.m */; };
+		9E6F694024CBE98F00EAE61B /* CGXPageTableBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F693F24CBE98F00EAE61B /* CGXPageTableBaseCell.m */; };
+		9E6F694324CBE99E00EAE61B /* CGXPageTableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F694224CBE99E00EAE61B /* CGXPageTableTextCell.m */; };
+		9E6F694624CBE9A800EAE61B /* CGXPageTableImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F694524CBE9A700EAE61B /* CGXPageTableImageCell.m */; };
 		9EA3196B24C1E586005E9457 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196824C1E586005E9457 /* LICENSE */; };
 		9EA3196C24C1E586005E9457 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196924C1E586005E9457 /* README.md */; };
 		9EA3196D24C1E586005E9457 /* CGXPageTableViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3196A24C1E586005E9457 /* CGXPageTableViewOC.podspec */; };
@@ -31,6 +34,12 @@
 		04634F6124C1891C005B8A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04634F6224C1891C005B8A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E595B6A840FE93CE1D0C833 /* Pods-CGXPageTableView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageTableView-OC.release.xcconfig"; path = "Target Support Files/Pods-CGXPageTableView-OC/Pods-CGXPageTableView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		9E6F693E24CBE98F00EAE61B /* CGXPageTableBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXPageTableBaseCell.h; sourceTree = "<group>"; };
+		9E6F693F24CBE98F00EAE61B /* CGXPageTableBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableBaseCell.m; sourceTree = "<group>"; };
+		9E6F694124CBE99E00EAE61B /* CGXPageTableTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXPageTableTextCell.h; sourceTree = "<group>"; };
+		9E6F694224CBE99E00EAE61B /* CGXPageTableTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableTextCell.m; sourceTree = "<group>"; };
+		9E6F694424CBE9A700EAE61B /* CGXPageTableImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXPageTableImageCell.h; sourceTree = "<group>"; };
+		9E6F694524CBE9A700EAE61B /* CGXPageTableImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXPageTableImageCell.m; sourceTree = "<group>"; };
 		9EA3196824C1E586005E9457 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
 		9EA3196924C1E586005E9457 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 		9EA3196A24C1E586005E9457 /* CGXPageTableViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageTableViewOC.podspec; path = ../../../CGXPageTableViewOC.podspec; sourceTree = "<group>"; };
@@ -77,6 +86,7 @@
 				04634F5124C1891B005B8A0F /* AppDelegate.m */,
 				04634F5624C1891B005B8A0F /* ViewController.h */,
 				04634F5724C1891B005B8A0F /* ViewController.m */,
+				9E6F694B24CBF80E00EAE61B /* Cell */,
 				9EA3196E24C1F122005E9457 /* PrefixHeader.pch */,
 				04634F5924C1891B005B8A0F /* Main.storyboard */,
 				04634F5C24C1891C005B8A0F /* Assets.xcassets */,
@@ -95,6 +105,19 @@
 				8E595B6A840FE93CE1D0C833 /* Pods-CGXPageTableView-OC.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E6F694B24CBF80E00EAE61B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F693E24CBE98F00EAE61B /* CGXPageTableBaseCell.h */,
+				9E6F693F24CBE98F00EAE61B /* CGXPageTableBaseCell.m */,
+				9E6F694124CBE99E00EAE61B /* CGXPageTableTextCell.h */,
+				9E6F694224CBE99E00EAE61B /* CGXPageTableTextCell.m */,
+				9E6F694424CBE9A700EAE61B /* CGXPageTableImageCell.h */,
+				9E6F694524CBE9A700EAE61B /* CGXPageTableImageCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		9EA3196724C1E57C005E9457 /* Podspec Metadata */ = {
@@ -223,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04634F5824C1891B005B8A0F /* ViewController.m in Sources */,
+				9E6F694624CBE9A800EAE61B /* CGXPageTableImageCell.m in Sources */,
+				9E6F694324CBE99E00EAE61B /* CGXPageTableTextCell.m in Sources */,
 				04634F5224C1891B005B8A0F /* AppDelegate.m in Sources */,
 				04634F6324C1891C005B8A0F /* main.m in Sources */,
+				9E6F694024CBE98F00EAE61B /* CGXPageTableBaseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
