@@ -28,7 +28,7 @@ s.public_header_files = 'CGXPageTableViewOC/CGXPageTableViewOC.h'
   
  s.subspec 'General' do |ss|
     ss.source_files = 'CGXPageTableViewOC/General/**/*.{h,m}'
-    
+    ss.dependency 'CGXPageTableViewOC/Base'
   end
 
 

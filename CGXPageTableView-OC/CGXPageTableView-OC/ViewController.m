@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<CGXPageTableUpdateViewDelegate>
+@interface ViewController ()<CGXPageTableUpdateViewDelegate,CGXPageTableGeneralViewDataDelegate>
 
 @property(nonatomic , strong) CGXPageTableGeneralView *generalView;
 
@@ -22,6 +22,7 @@
      self.edgesForExtendedLayout = UIRectEdgeNone;
     self.generalView = [[CGXPageTableGeneralView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-88-83)];
     self.generalView.viewDelegate = self;
+    self.generalView.dataDelegate = self;
     [self.generalView registerCell:[CGXPageTableTextCell class] IsXib:NO];
     [self.view addSubview:self.generalView];
     
@@ -29,14 +30,14 @@
     for (int i = 0; i<10; i++) {
         CGXPageTableGeneralSectionModel *sectionModel = [[CGXPageTableGeneralSectionModel alloc] init];
         
-        CGXPageTableHeaderModel *headerModel = [[CGXPageTableHeaderModel alloc] initWithHeaderClass:[UITableViewHeaderFooterView class] IsXib:NO];
+        CGXPageTableHeaderModel *headerModel = [[CGXPageTableHeaderModel alloc] initWithHeaderClass:[CGXPageTableSectionHeaderView class] IsXib:NO];
         headerModel.headerHeight= 40;
         headerModel.headerBgColor  = [UIColor orangeColor];
         sectionModel.headerModel = headerModel;
         
-        CGXPageTableFooterModel *footerModel = [[CGXPageTableFooterModel alloc] initWithFooterClass:[UITableViewHeaderFooterView class] IsXib:NO];
+        CGXPageTableFooterModel *footerModel = [[CGXPageTableFooterModel alloc] initWithFooterClass:[CGXPageTableSectionFooterView class] IsXib:NO];
         footerModel.footerHeight= 40;
-        footerModel.footerBgColor  = [UIColor colorWithWhite:0.93 alpha:1];
+        footerModel.footerBgColor  = [UIColor redColor];
         sectionModel.footerModel = footerModel;
         
         NSMutableArray *rowArray = [NSMutableArray array];
@@ -111,7 +112,7 @@
 /*
  左滑cell时按钮处理事件
  */
-- (void)gx_PageTableBaseView:(CGXPageTableBaseView *)generalView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)gx_PageTableGeneralView:(CGXPageTableGeneralView *)generalView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath RowModel:(nonnull CGXPageTableGeneralRowModel *)rowModel
 {
     NSLog(@"editActionsForRowAtIndexPath：%@" ,indexPath);
 }

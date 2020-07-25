@@ -35,10 +35,10 @@ typedef void (^CGXPageTableBaseViewRefresEndBlock)(CGXPageTableBaseView *baseVie
 typedef void (^CGXPageTableBaseViewHeightBlock)(CGXPageTableBaseView *baseView,CGFloat height);
 
 @interface CGXPageTableBaseView : UIView<UITableViewDataSource,UITableViewDelegate>
+
 @property (nonatomic , strong) UITableView *tableView;
 
 @property (nonatomic,strong,readonly) NSMutableArray<CGXPageTableBaseSectionModel *> *dataArray;
-
 
 /*
   刷新回调
@@ -83,6 +83,8 @@ typedef void (^CGXPageTableBaseViewHeightBlock)(CGXPageTableBaseView *baseView,C
  */
 - (void)updateDataArray:(NSMutableArray<CGXPageTableBaseSectionModel *> *)array IsDownRefresh:(BOOL)isDownRefresh Page:(NSInteger)page;
 - (void)updateDataArray:(NSMutableArray<CGXPageTableBaseSectionModel *> *)array IsDownRefresh:(BOOL)isDownRefresh Page:(NSInteger)page MaxPage:(NSInteger)maxPage;
+
+
 
 
 @end

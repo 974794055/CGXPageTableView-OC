@@ -9,6 +9,15 @@
 #ifndef CGXPageTableViewOC_h
 #define CGXPageTableViewOC_h
 
+/*
+pod ：CGXPageTableViewOC
+ 下载链接：https://github.com/974794055/CGXPageTableViewOC-OC.git
+群名称：
+群号：
+版本号： 0.0.1
+QQ号：
+*/
+
 #import "CGXPageTableGeneralView.h"
 #import "CGXPageTableBaseSectionModel.h"
 #import "CGXPageTableGeneralRowModel.h"
